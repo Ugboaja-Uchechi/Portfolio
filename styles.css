@@ -19,14 +19,11 @@ body {
 .logo-heading {
   font-size: 19px;
   color: blueviolet;
+  padding: 11px;
 }
 
 a {
   align-items: center;
-}
-
-.logo-heading > a {
-  padding: 11px;
 }
 
 a:active {
@@ -46,18 +43,17 @@ h4 > a:hover {
   text-decoration: #6070ff;
 }
 
-.logo-heading > a:link {
+.logo-heading:link {
   text-decoration: none;
 }
 
-.logo-heading > a:hover {
+.logo-heading:hover {
   cursor: pointer;
   text-decoration: #565ea5;
 }
 
-.icon {
-  margin-right: 5px;
-  margin-top: 15px;
+nav > .icon {
+  margin-left: 125px;
 }
 
 .icon:hover {
