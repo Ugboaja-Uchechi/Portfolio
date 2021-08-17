@@ -1,0 +1,142 @@
+/* --- Mobile View Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+  background-image: url(/images/header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'poppins', sans-serif;
+}
+
+/* --- Header View For Mobile */
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo-heading {
+  font-size: 19px;
+  color: blueviolet;
+}
+
+a {
+  align-items: center;
+}
+
+.logo-heading > a {
+  padding: 11px;
+}
+
+a:active {
+  color: #2230d2;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h4 > a:link {
+  text-decoration: none;
+}
+
+h4 > a:hover {
+  cursor: pointer;
+  text-decoration: #6070ff;
+}
+
+.logo-heading > a:link {
+  text-decoration: none;
+}
+
+.logo-heading > a:hover {
+  cursor: pointer;
+  text-decoration: #565ea5;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+/* --- Section For Mobile */
+.headline {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headline > .intro {
+  color: #172b4d;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+p {
+  color: #344563;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.headline > p {
+  color: #344563;
+}
+
+h4 {
+  font-size: 18px;
+  color: #7f8cff;
+}
+
+/* --- Nav Links For Mobile */
+
+.resume {
+  padding: 11px;
+}
+
+.social-links .resume {
+  border: 2px solid #7f8cff;
+  border-radius: 8px;
+  color: #6070ff;
+  padding: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.resume:link {
+  text-decoration: none;
+}
+
+.resume:visited {
+  text-decoration: none;
+}
+
+.resume:hover {
+  background: #6070ff;
+  cursor: pointer;
+  color: white;
+}
+
+.resume:active {
+  background: #2230d2;
+  color: white;
+}
+
+.social-links > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.1px;
+}
+
+span > img {
+  margin: 4px;
+}
+
+.social-links > ul > li > a > img {
+  margin-right: 15px;
+}
