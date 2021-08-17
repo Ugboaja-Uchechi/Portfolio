@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body {
-  background-image: url(/images/header-shapes-mobile.png);
+  background-image: url(images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
   font-family: 'poppins', sans-serif;
