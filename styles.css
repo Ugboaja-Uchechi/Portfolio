@@ -134,6 +134,13 @@ span > img {
   margin: 4px;
 }
 
+.languages img {
+  border: 2px solid #f7f7f9;
+  margin-top: 15px;
+  margin-right: 9px;
+  background-color: #f7f7f9;
+}
+
 .social-links > ul > li > a > img {
   margin-right: 15px;
 }
@@ -210,8 +217,17 @@ span {
   color: #172b4d;
 }
 
-.list > li {
+li {
   list-style-type: none;
+}
+
+.list {
+  margin-top: 50px;
+}
+
+.languages {
+  font-size: 15px;
+  color: #253858;
 }
 
 .list .skills-tag {
@@ -220,6 +236,7 @@ span {
 
 .list .frame-tag {
   margin-left: 130px;
+  margin-top: 30px;
 }
 
 .list .lang-tag {
