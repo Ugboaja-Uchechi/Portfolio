@@ -27,7 +27,8 @@ Authors
 
 👤Ugboaja-Uchechi
 
-GitHub: @Ugboaja-Uchechi
+GitHub: https://github.com/Ugboaja-Uchechi
+
 
 🤝Contributing
 
@@ -40,6 +41,7 @@ Give a ⭐️ if you like this project!
 Acknowledgement:
 
 The idea was gotten from the ![](https://img.shields.io/badge/Microverse-blueviolet) Microverse Figma template.
+
 
 📝 License
 
