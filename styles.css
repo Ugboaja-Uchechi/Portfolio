@@ -137,3 +137,91 @@ span > img {
 .social-links > ul > li > a > img {
   margin-right: 15px;
 }
+
+/* --- Mobile Works Section --- */
+.grid-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.flex-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  padding-left: 8px;
+  margin-top: 10px;
+}
+
+span {
+  margin: 4px;
+  align-items: baseline;
+}
+
+/* --- Mobile About Section --- */
+
+.button {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  border: 2px solid #7f8cff;
+  border-radius: 8px;
+  color: #6070ff;
+  padding: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.button:link {
+  text-decoration: none;
+}
+
+.button:visited {
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #6070ff;
+  cursor: pointer;
+  color: white;
+}
+
+.button:active {
+  background: #2230d2;
+  color: white;
+}
+
+.grid-container h3 {
+  font-size: 34px;
+  color: #172b4d;
+  padding: 11px;
+}
+
+.grid-container span {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about > h2 {
+  font-size: 50px;
+  color: #172b4d;
+}
+
+.list > li {
+  list-style-type: none;
+}
+
+.list .skills-tag {
+  margin-left: 187px;
+}
+
+.list .frame-tag {
+  margin-left: 130px;
+}
+
+.list .lang-tag {
+  margin-left: 141px;
+}
