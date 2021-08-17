@@ -1,4 +1,4 @@
-	![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
 
@@ -17,8 +17,30 @@ Built with :
 
 HTML and CSS
 
-Linter styling to help debug and make the code neater.
+Linters such as :
+
+1. Sytle Lint
+2. WebHint
+3. Lighthouse
+
+Authors
+
+👤Ugboaja-Uchechi
+
+GitHub: @Ugboaja-Uchechi
+
+🤝Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page. Show your support
+
+Give a ⭐️ if you like this project!
 
 Acknowledgement:
 
-The idea was gotten from the Microverse Figma template.
+The idea was gotten from the ![](https://img.shields.io/badge/Microverse-blueviolet) Microverse Figma template.
+
+📝 License
+
+This project is MIT licensed.
