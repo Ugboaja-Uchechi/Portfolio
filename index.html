@@ -4,51 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio:setup and mobile version skeleton</title>
+  <title>Portfolio: mobile version</title>
   <link rel="stylesheet" href="styles.css">
   
 </head>
 <body>
   <!--  Mobile View markup  -->
-  <header class="toolbar">
+  <header class="toolbar d-flex space-between">
+    <a href="https://github.com/" class="logo-heading">My Logo</a>
     <nav class="hamburger-menu">
-      <a href="https://github.com/" class="logo-heading">My Logo</a>
       <img class="icon" src="images/Icon-Menu.png" alt="An icon menu">
     </nav>
   </header>
 
   <section class="headline">
-    <h1 class="intro">I’m Mariane Glad to see you!</h1>
-    <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-    <h4>
-      <a href="https://github.com/">LET’S CONNECT</a>
-    </h4>
+    <div class="headline-content-wrapper">
+      <h1 class="intro">I’m Mariane Glad to see you!</h1>
+      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      <h4>
+        <a href="https://github.com/" class="connect-color">LET’S CONNECT</a>
+      </h4>
     
-    <nav class="social-links">
-      <ul>
-        <li>
-          <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter-logo"></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/stephanie-ugboaja-930a2a216/"><img src="images/Linkedin-icon.png" alt="linkedin-logo"></a>
-        </li>
-        <li>
-          <a href="#" target="_blank"><img src="images/m-logo.png" alt="m"></a>
-        </li>
-        <li>
-          <a href="https://github.com/"><img src="images/github-logo.png" alt="github-logo"></a>
-        </li>
-        <li>
-          <a href="#" target="_blank"><img src="images/peace-logo.png" alt="A hand with two fingers up"></a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="social-links">
+        <ul>
+          <li>
+            <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter-logo"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/stephanie-ugboaja-930a2a216/"><img src="images/Linkedin-icon.png" alt="linkedin-logo"></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><img src="images/m-logo.png" alt="m"></a>
+          </li>
+          <li>
+            <a href="https://github.com/"><img src="images/github-logo.png" alt="github-logo"></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><img src="images/peace-logo.png" alt="A hand with two fingers up"></a>
+          </li>
+        </ul>
+      </nav>
+    </div>  
   </section>
  
   <!-- Mobile Works Section -->
   <section class="grid-container">
     <div class="flex-cards" >
-      <img src="images/Snapshoot-Portfolio.png" alt="Snapshoot">
+      <img src="images/Snapshoot-Portfolio.png" alt="Snapshoot" class="project-card-image">
       <h3>Tonic</h3>  
       <span>
        Canopy
@@ -57,19 +59,17 @@
       </span>
     
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="type">
-        <li>
-          <span>HTML</span> 
-          <span>CSS</span> 
-          <span>JavaScript</span> 
-        </li>  
+      <ul class="type d-flex">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
       </ul>
       <a href="https://github.com/" class="button">See Project</a>
     </div>
     
     
     <div class="flex-cards">
-      <img src="images/Snapshoot-Portfolio-a.png" alt="Snapshoot">
+      <img src="images/Snapshoot-Portfolio-a.png" alt="Snapshoot" class="project-card-image">
       <h3>Multi-post series</h3>
       <span>
         Canopy
@@ -78,19 +78,17 @@
       </span>
     
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="type">
-        <li>
-          <span>HTML</span> 
-          <span>CSS</span> 
-          <span>JavaScript</span> 
-        </li>  
+      <ul class="type d-flex">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
       </ul>
       <a href="https://github.com/" class="button">See Project</a>
     </div>
     
     
     <div class="flex-cards">
-      <img src="images/Snapshoot-Portfolio-b.png" alt="Snapshoot">
+      <img src="images/Snapshoot-Portfolio-b.png" alt="Snapshoot" class="project-card-image">
       <h3>Tonic</h3>
       <span>
         Canopy
@@ -99,19 +97,17 @@
       </span>
     
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="type">
-        <li>
-          <span>HTML</span> 
-          <span>CSS</span> 
-          <span>JavaScript</span> 
-        </li>  
+      <ul class="type d-flex">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
       </ul>
       <a href="https://github.com/" class="button">See Project</a>
     </div>
     
     
     <div class="flex-cards">
-      <img src="images/Snapshoot-Portfolio-c.png" alt="Snapshoot">
+      <img src="images/Snapshoot-Portfolio-c.png" alt="Snapshoot" class="project-card-image">
       <h3>Multi-post series</h3>
       <span>
         Canopy
@@ -120,12 +116,10 @@
       </span>
     
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="type">
-        <li>
-          <span>HTML</span> 
-          <span>CSS</span> 
-          <span>JavaScript</span> 
-        </li>  
+      <ul class="type d-flex">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
       </ul>
       <a href="https://github.com/" class="button">See Project</a>
     </div>
@@ -136,9 +130,9 @@
     <h2>About myself</h2>
     <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
     
-    <h4>
-      <a href="https://github.com/">LET’S CONNECT</a>
-    </h4>
+
+    <a href="https://github.com/" class="anchor">LET’S CONNECT</a>
+
         
     <nav class="social-links">
       <ul>
@@ -162,17 +156,40 @@
     </nav>
     
     <ul class="list">
-      <li>Languages
-        <img src="images/Union.png" alt="Union" class="lang-tag">
+      <li>
+        <div class="d-flex space-between my-5 technology-item" >
+          Languages
+            <img src="images/Union.png" alt="Union" class="lang-tag">
+       
+        </div>
+        <ul class="technology-list">
+          <li class="d-flex flex-center">
+            <img src="images/js.png" alt="technology">
+            <span>JavaScript</span>
+          </li>
+          <li  class="d-flex flex-center">
+            <img src="images/html.png" alt="technology">
+            <span> HTML</span>
+         </li>
+          <li class="d-flex flex-center">
+            <img src="images/css.png" alt="technology">
+            <span>CSS</span>
+          </li>
+        </ul>  
       </li>
       <li>
-        <img src="images/Language-List-crop-Copy.png" alt="programming Languages" class="languages"> <hr>
-      </li> 
-      <li>Frameworks 
-        <img src="images/Union.png" alt="Union" class="frame-tag"> <hr>
+        <div class="d-flex space-between my-5 border-bottom technology-item" >
+          Frameworks
+            <img src="images/Union.png" alt="Union" class="lang-tag">
+       
+        </div>
       </li>
-      <li>Skills
-        <img src="images/Union.png" alt="Union" class="skills-tag"> <hr>
+      <li>
+        <div class="d-flex space-between my-5 border-bottom technology-item" >
+         Skills
+            <img src="images/Union.png" alt="Union" class="lang-tag">
+       
+        </div>
       </li>
     </ul>
   </section>
