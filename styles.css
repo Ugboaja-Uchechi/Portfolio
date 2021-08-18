@@ -134,13 +134,6 @@ span > img {
   margin: 4px;
 }
 
-.languages img {
-  border: 2px solid #f7f7f9;
-  margin-top: 15px;
-  margin-right: 9px;
-  background-color: #f7f7f9;
-}
-
 .social-links > ul > li > a > img {
   margin-right: 15px;
 }
@@ -165,6 +158,31 @@ h1 {
 span {
   margin: 4px;
   align-items: baseline;
+}
+
+li {
+  list-style-type: none;
+}
+
+.grid-container span {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.type > li > span {
+  background: #ebebff;
+  border: 1px solid #ebebff;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.type > li {
+  position: absolute;
+  left: 10px;
 }
 
 /* --- Mobile About Section --- */
@@ -205,20 +223,9 @@ span {
   padding: 11px;
 }
 
-.grid-container span {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 .about > h2 {
   font-size: 50px;
   color: #172b4d;
-}
-
-li {
-  list-style-type: none;
 }
 
 .list {
@@ -236,7 +243,6 @@ li {
 
 .list .frame-tag {
   margin-left: 130px;
-  margin-top: 30px;
 }
 
 .list .lang-tag {
