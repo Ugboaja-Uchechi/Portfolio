@@ -394,3 +394,30 @@ textarea {
   font-size: 24px;
 }
 
+button {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #ffffff;
+  padding: 12px 24px;
+  margin-bottom: 28px;
+  font-size: 18px;
+}
+
+button:link {
+  text-decoration: none;
+}
+
+button:visited {
+  text-decoration: none;
+  border: 1px solid #c1c7d0;
+}
+
+button:hover {
+  background: #6070ff;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 8px 16px 0px #4053fc3d;
+}
+
+
