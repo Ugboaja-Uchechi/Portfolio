@@ -331,3 +331,66 @@ span {
 .list .lang-tag {
   margin-left: 141px;
 }
+
+/* -- Contact Styling -- */
+
+.contact {
+  background-image: url(images/contact-form-mobile.png);
+  background-size: contain;
+  background-position: 13rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  margin-top: 7rem;
+  background-color: #6070FF;
+  padding-top: 3rem;
+  border-top-left-radius: 8rem;
+}
+
+.contact h2 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px;
+}
+
+.contact p {
+  color: #ebebff;
+  font-size: 20px;
+  line-height: 31px;
+  margin-left: 28px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+}
+
+.inputs li {
+  margin: 1rem;
+}
+
+input {
+  border: 1px solid #cfd8dc;
+  padding-left: 1.5rem;
+  padding-right: 4.6rem;
+  padding-top: 0.7rem;
+  font-size: 24px;
+  padding-bottom: 0.5rem;
+  border-radius: 7px;
+}  
+
+::placeholder {
+  color: #B3BAC5;
+}
+
+textarea {
+  border: 1px solid #cfd8dc;
+  padding-left: 1.5rem;
+  padding-right: 4.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-radius: 7px;
+  font-size: 24px;
+}
+
