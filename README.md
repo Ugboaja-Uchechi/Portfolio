@@ -4,6 +4,7 @@
 
 This is my Microverse project called "Portfolio" (Contac Form Section) built using HTML and CSS only.
 
+![Screenshot-contact-form](https://user-images.githubusercontent.com/74814780/130635626-1efbdb1e-542a-475f-a6ea-22e897d4a230.png)
 
 Below are some features of this project:
 
