@@ -343,13 +343,13 @@ span {
   flex-direction: column;
   padding: 0 1.5rem;
   margin-top: 7rem;
-  background-color: #6070FF;
+  background-color: #6070ff;
   padding-top: 3rem;
   border-top-left-radius: 8rem;
 }
 
 .contact h2 {
-  color: #ffffff;
+  color: #fff;
   font-size: 40px;
   margin-top: 75px;
   margin-left: auto;
@@ -378,10 +378,10 @@ input {
   font-size: 24px;
   padding-bottom: 0.5rem;
   border-radius: 7px;
-}  
+}
 
 ::placeholder {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 textarea {
@@ -395,10 +395,10 @@ textarea {
 }
 
 button {
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-radius: 8px;
   color: #6070ff;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 12px 24px;
   margin-bottom: 28px;
   font-size: 18px;
@@ -417,7 +417,5 @@ button:hover {
   background: #6070ff;
   cursor: pointer;
   color: white;
-  box-shadow: 0px 8px 16px 0px #4053fc3d;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
 }
-
-
