@@ -393,7 +393,13 @@ h1 {
 }
 
 .inputs li {
+  display: flex;
   margin: 1rem;
+}
+
+form .inputs {
+  display: flex;
+  flex-direction: column;
 }
 
 input {
@@ -412,12 +418,8 @@ input {
 
 textarea {
   border: 1px solid #cfd8dc;
-  padding-left: 1.5rem;
-  padding-right: 4.6rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.5rem;
-  border-radius: 7px;
-  font-size: 24px;
+  padding: 1.5rem;
+  flex: 1;
 }
 
 button {
@@ -672,12 +674,12 @@ footer {
     border-radius: 2px;
   }
 
+  button {
+    margin: auto;
+  }
+
   textarea {
     font-family: 'poppins', sans-serif;
-    font-size: 20px;
-    border-radius: 2px;
-    height: 10rem;
-    width: 21rem;
   }
 
   footer {
