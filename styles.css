@@ -12,6 +12,10 @@ body {
   display: flex;
 }
 
+.header-nav-links {
+  display: none;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -36,6 +40,22 @@ li {
   justify-content: flex-start;
   margin-top: 0.5rem;
   border-radius: 0.6rem;
+}
+
+span {
+  margin: 4px;
+  align-items: baseline;
+}
+
+.grid-container span {
+  color: #344563;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.technology-list li span {
+  font-size: 1rem;
 }
 
 .my-5 {
@@ -202,7 +222,7 @@ span > img {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin: 0 1.5rem;
+  margin: 7rem 1.5rem;
 }
 
 .flex-cards {
@@ -210,7 +230,7 @@ span > img {
   flex-direction: column;
   align-items: flex-start;
   border: 1px solid #dfe1e6;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
   margin: 2rem 0;
   background-color: white;
@@ -224,6 +244,15 @@ span > img {
   margin: 0;
 }
 
+.flex-cards h2,
+.ruby {
+  display: none;
+}
+
+.flex-cards3 .project-card-image.desktop {
+  display: none;
+}
+
 h1 {
   padding-left: 8px;
   margin-top: 10px;
@@ -231,16 +260,8 @@ h1 {
   color: #172b4d;
 }
 
-span {
-  margin: 4px;
-  align-items: baseline;
-}
-
-.grid-container span {
-  color: #344563;
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.type {
+  flex-wrap: wrap;
 }
 
 .type > li > span {
@@ -271,6 +292,9 @@ span {
   padding: 9px;
   padding-left: 14px;
   padding-right: 14px;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
 }
 
 .button:link {
@@ -279,12 +303,14 @@ span {
 
 .button:visited {
   text-decoration: none;
+  border: 1px solid #c1c7d0;
 }
 
 .button:hover {
   background: #6070ff;
   cursor: pointer;
   color: white;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
 }
 
 .button:active {
@@ -418,4 +444,241 @@ button:hover {
   cursor: pointer;
   color: white;
   box-shadow: 0 8px 16px 0 #4053fc3d;
+}
+
+button:active {
+  background: #2230d2;
+  color: white;
+}
+
+footer {
+  border: 2px solid #0d151e;
+  margin-bottom: 0.8rem;
+  margin-left: 9.6rem;
+  margin-right: 9.6rem;
+  border-radius: 4rem;
+}
+
+/* --- Laptop and Desktop Version --- */
+
+@media screen and (min-width: 992px) {
+  .logo-heading {
+    color: #6070ff;
+    margin-left: 5%;
+  }
+
+  .hamburger-menu {
+    margin-right: 9%;
+    color: #344563;
+  }
+
+  .headline-content-wrapper {
+    background-image: url(images/desktop-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  h1 {
+    margin-right: 46%;
+  }
+
+  .intro {
+    font-size: 300%;
+  }
+
+  .headline p {
+    font-size: 125%;
+    margin-right: 3%;
+  }
+
+  .header-nav-links {
+    display: flex;
+  }
+
+  .header-nav-links li a {
+    color: #344563;
+    text-decoration: none;
+    padding: 0 1rem;
+  }
+
+  .hamburger-menu a:active {
+    color: #7f8cff;
+  }
+
+  .hamburger-menu a:link {
+    text-decoration: none;
+  }
+
+  .hamburger-menu a:hover {
+    cursor: pointer;
+    text-decoration: #6070ff;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  /* --- Works Styling --- */
+  .grid-container h3,
+  .grid-container p {
+    display: none;
+  }
+
+  .grid-container {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .flex-cards {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .flex-card-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .flex-cards h2,
+  .ruby {
+    display: flex;
+  }
+
+  .flex-cards0 span {
+    margin-right: 20%;
+  }
+
+  .flex-cards1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+    order: 1;
+  }
+
+  .flex-cards1 h2 {
+    margin-right: 28%;
+    color: #091e42;
+  }
+
+  .flex-cards0 h2 {
+    margin-right: 39%;
+    color: #091e42;
+  }
+
+  .flex-cards1 span {
+    margin-right: 18%;
+  }
+
+  .contact h2 {
+    font-size: 250%;
+    line-height: 175%;
+    text-align: center;
+  }
+
+  .flex-cards1 h4,
+  .flex-cards2 h4,
+  .flex-cards4 h4,
+  .flex-cards3 h4 {
+    display: inline-block;
+    color: #344563;
+  }
+
+  .flex-cards1 .button {
+    margin-right: 19rem;
+  }
+
+  .flex-cards2 {
+    order: 3;
+  }
+
+  .flex-cards3 .project-card-image {
+    display: none;
+  }
+
+  .flex-cards3 .project-card-image.desktop {
+    display: block;
+    order: 0;
+  }
+
+  .flex-cards.right img {
+    order: 2;
+  }
+
+  .flex-cards4 h2 .flex-cards2 h2 {
+    color: #091e42;
+  }
+
+  /* --- About Styling --- */
+
+  .about {
+    display: flex;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .about-header {
+    flex: 2;
+    margin-right: 6rem;
+  }
+
+  .link-section {
+    flex: 3;
+  }
+
+  .technology-list {
+    display: flex;
+  }
+
+  .technology-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 8rem;
+    flex: none;
+    margin-right: 1rem;
+  }
+
+  /* --- Contact Styling --- */
+
+  .contact {
+    background-image: url(images/desktop-contact-form.png);
+    background-color: #6070ff;
+    background-position: 0.4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact p {
+    font-size: 125%;
+    line-height: 175%;
+    text-align: center;
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+
+  .inputs li {
+    text-align: center;
+  }
+
+  input {
+    padding-left: 3rem;
+    padding-right: 6rem;
+    border-radius: 2px;
+  }
+
+  textarea {
+    font-family: 'poppins', sans-serif;
+    font-size: 28px;
+    border-radius: 2px;
+  }
+
+  footer {
+    display: none;
+  }
 }
