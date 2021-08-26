@@ -674,8 +674,10 @@ footer {
 
   textarea {
     font-family: 'poppins', sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     border-radius: 2px;
+    height: 10rem;
+    width: 21rem;
   }
 
   footer {
