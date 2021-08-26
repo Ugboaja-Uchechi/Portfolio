@@ -626,14 +626,20 @@ footer {
   .about-header {
     flex: 2;
     margin-right: 6rem;
+    margin-top: 10%;
   }
 
   .link-section {
     flex: 3;
+    margin-top: 6%;
   }
 
   .technology-list {
     display: flex;
+  }
+
+  .about-header .social-links {
+    margin-bottom: 30%;
   }
 
   .technology-list li {
@@ -654,6 +660,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
 
   .contact p {
@@ -672,6 +679,10 @@ footer {
     padding-left: 3rem;
     padding-right: 6rem;
     border-radius: 2px;
+  }
+
+  .contact-bg {
+    background-color: #fff;
   }
 
   button {
