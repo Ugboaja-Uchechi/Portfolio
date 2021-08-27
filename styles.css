@@ -479,7 +479,7 @@ footer {
   }
 
   .headline-content-wrapper {
-   background-image: url(images/desktop-header.png);
+    background-image: url(images/desktop-header.png);
     padding-top: 10%;
     padding-right: 25%;
     padding-left: 10%;
