@@ -2,13 +2,17 @@
 
 # Portfolio
 
-This is my Microverse project called "Portfolio" (Contac Form Section) built using HTML and CSS only.
+This is my Microverse project called "Portfolio" (Desktop version) built using HTML and CSS only.
+
+![image](https://user-images.githubusercontent.com/74814780/131140221-4b263fa6-135b-46dd-9603-071738e1bb98.png)
 
 ![Screenshot-contact-form](https://user-images.githubusercontent.com/74814780/130635626-1efbdb1e-542a-475f-a6ea-22e897d4a230.png)
 
 Below are some features of this project:
 
 1. Has a contact section showing how you can contact me.
+
+3. Has a contact me section.
 
 Built with :
 
