@@ -4,6 +4,8 @@
 
 This is my Microverse project called "Portfolio" (Desktop version) built using HTML and CSS only.
 
+![image](https://user-images.githubusercontent.com/74814780/131140221-4b263fa6-135b-46dd-9603-071738e1bb98.png)
+
 
 Below are some features of this project:
 
