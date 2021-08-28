@@ -732,4 +732,22 @@ footer {
   footer {
     display: none;
   }
+
+  button:hover {
+    animation-name: color;
+    animation-duration: 600ms;
+    animation-delay: 4ms;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes color {
+    100% {
+      background-color: #7f8cff;
+      transform: scale(1.1);
+    }
+  }
+
+
+
+
 }
