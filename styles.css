@@ -701,6 +701,7 @@ footer {
   textarea {
     font-family: 'poppins', sans-serif;
   }
+
   .button:hover {
     animation-name: box-shadow;
     animation-duration: 650ms;
@@ -724,10 +725,10 @@ footer {
   @keyframes shadow {
     100% {
       box-shadow: 2px 5px gray;
-      transform: skew(1.4);
+      transform: scale(1.4);
     }
   }
-  
+
   footer {
     display: none;
   }
