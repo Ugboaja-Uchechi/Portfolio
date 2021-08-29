@@ -2,7 +2,9 @@
 
 # Portfolio
 
-This is my Microverse project called "Portfolio" (About and Works Section) built using HTML and CSS only.
+This is my Microverse project called "Portfolio" (Mobile and Desktop version) built using HTML and CSS only.
+
+# live Demo link
 
 ![first-mobile-portfolio](https://user-images.githubusercontent.com/74814780/129377429-52fee171-9b88-43a3-9cd8-4e5b3e78bd47.png)
 
@@ -33,14 +35,14 @@ Linters such as :
 2. WebHint
 3. Lighthouse
 
-Authors
+# Author(s)
 
 👤Ugboaja-Uchechi
 
 GitHub: https://github.com/Ugboaja-Uchechi
 
 
-🤝Contributing
+# 🤝Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -48,11 +50,11 @@ Feel free to check the issues page. Show your support
 
 Give a ⭐️ if you like this project!
 
-Acknowledgement:
+# Acknowledgement:
 
 The idea was gotten from the ![](https://img.shields.io/badge/Microverse-blueviolet) Microverse Figma template.
 
 
-📝 License
+# 📝 License
 
 This project is MIT licensed.
