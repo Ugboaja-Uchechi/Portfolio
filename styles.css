@@ -280,8 +280,9 @@ h1 {
 .type > li {
   padding: 0.51rem 1rem;
   background-color: #ebebff;
+  margin-top: 0.8rem;
   border-radius: 0.8rem;
-  margin-right: 0.8rem;
+  margin-right: 1rem;
   color: #6070ff;
 }
 
@@ -422,8 +423,12 @@ input {
 
 textarea {
   border: 1px solid #cfd8dc;
-  padding: 1.5rem;
-  flex: 1;
+  padding-left: 1.5rem;
+  padding-right: 4.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-radius: 7px;
+  font-size: 24px;
 }
 
 button {
@@ -700,6 +705,7 @@ footer {
 
   textarea {
     font-family: 'poppins', sans-serif;
+    flex: 1;
   }
 
   .button:hover {
