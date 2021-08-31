@@ -83,12 +83,12 @@ ul {
 
 .logo-heading {
   font-size: 19px;
-  color: blueviolet;
+  color: #2e43ff;
   padding: 11px;
 }
 
 .connect-color {
-  color: #7f8cff;
+  color: #4e5cd4;;
 }
 
 a {
@@ -103,11 +103,11 @@ a:hover {
   cursor: pointer;
 }
 
-h4 > a:link {
+h2 > a:link {
   text-decoration: none;
 }
 
-h4 > a:hover {
+h2 > a:hover {
   cursor: pointer;
   text-decoration: #6070ff;
 }
@@ -164,7 +164,7 @@ p {
 
 .anchor {
   font-size: 18px;
-  color: #7f8cff;
+  color: #2e43ff;
   text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ p {
 .social-links .resume {
   border: 2px solid #7f8cff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #2e43ff;
   padding: 9px;
   padding-left: 14px;
   padding-right: 14px;
@@ -283,7 +283,7 @@ h1 {
   margin-top: 0.8rem;
   border-radius: 0.8rem;
   margin-right: 1rem;
-  color: #6070ff;
+  color: #2e43ff;
 }
 
 /* --- Mobile About Section --- */
@@ -293,7 +293,7 @@ h1 {
   margin-bottom: 32px;
   border: 2px solid #7f8cff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #2e43ff;
   padding: 9px;
   padding-left: 14px;
   padding-right: 14px;
@@ -374,7 +374,7 @@ h1 {
   flex-direction: column;
   padding: 0 1.5rem;
   margin-top: 7rem;
-  background-color: #6070ff;
+  background-color: #4d5ef7;
   padding-top: 3rem;
   border-top-left-radius: 8rem;
 }
@@ -389,7 +389,7 @@ h1 {
 }
 
 .contact p {
-  color: #ebebff;
+  color: #fff;
   font-size: 20px;
   line-height: 31px;
   margin-left: 28px;
@@ -434,7 +434,7 @@ textarea {
 button {
   border: 2px solid #fff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #2e43ff;
   background-color: #fff;
   padding: 12px 24px;
   margin-bottom: 28px;
@@ -474,7 +474,6 @@ footer {
 
 @media screen and (min-width: 992px) {
   .logo-heading {
-    color: #6070ff;
     margin-left: 5%;
   }
 
@@ -668,7 +667,6 @@ footer {
 
   .contact {
     background-image: url(images/desktop-contact-form.png);
-    background-color: #6070ff;
     background-position: 0.4rem 3rem;
     display: flex;
     flex-direction: column;
