@@ -88,7 +88,7 @@ ul {
 }
 
 .connect-color {
-  color: #4e5cd4;;
+  color: #4e5cd4;
 }
 
 a {
@@ -428,7 +428,7 @@ textarea {
   padding-top: 0.7rem;
   padding-bottom: 0.5rem;
   border-radius: 7px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 button {
@@ -468,6 +468,12 @@ footer {
   margin-left: 9.6rem;
   margin-right: 9.6rem;
   border-radius: 4rem;
+}
+
+label {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 1rem;
 }
 
 /* --- Laptop and Desktop Version --- */
