@@ -572,10 +572,6 @@ label {
   }
 
   .flex-cards1 {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 4rem; */
     order: 1;
   }
 
