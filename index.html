@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio: mobile version</title>
+  <title>Ugboaja Uchechi's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D3J650GZE"></script>
+  <script src="./script.js"></script>
 </head>
 <body>
   <!--  Mobile View markup  -->
@@ -26,9 +28,9 @@
     <div class="headline-content-wrapper">
       <h1 class="intro">I’m Mariane Glad to see you!</h1>
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      <h4>
+      <h2>
         <a href="https://github.com/" class="connect-color">LET’S CONNECT</a>
-      </h4>
+      </h2>
     
       <nav class="social-links">
         <ul>
@@ -75,7 +77,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <a href="https://github.com/" class="button">See Project</a>
+        <a href="#" class="button">See Project</a>
       </div>
 
     </div>
@@ -84,8 +86,8 @@
     <div class="flex-cards flex-cards2 right">
       <img src="images/Snapshoot-Portfolio-a.png" alt="Snapshoot" class="project-card-image">
       <div class="flex-card-text">
-        <h3>Multi-post series</h3>
         <h2>Uber Navigation</h2>
+        <h3>Multi-post series</h3>
         <span>
           Canopy
           <img src="images/Counter.png" alt="circle"> Back End Dev
@@ -100,7 +102,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <a href="https://github.com/" class="button">See Project</a>
+        <a href="https://www.linkedin.com/in/stephanie-ugboaja-930a2a216/" class="button">See Project</a>
       </div>
      
     </div>
@@ -125,7 +127,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <a href="https://github.com/" class="button">See Project</a>
+        <a href="#">See Project</a>
       </div>
      
     </div>
@@ -134,8 +136,8 @@
     <div class="flex-cards flex-cards4 right">
       <img src="images/Snapshoot-Portfolio-c.png" alt="Snapshoot" class="project-card-image">
       <div class="flex-card-text">
-        <h3>Multi-post series</h3>
         <h2>Multi-post series</h2>
+        <h3>Multi-post series</h3>
         <span>
           Canopy
           <img src="images/Counter.png" alt="circle"> Back End Dev
@@ -150,7 +152,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <a href="https://github.com/" class="button">See Project</a>
+        <a href="https://twitter.com/" class="button">See Project</a>
       </div>
      
     </div>
@@ -182,7 +184,7 @@
             <a href="#" target="_blank"><img src="images/peace-logo.png" alt="A hand with two fingers up"></a>
           </li>
         </ul>
-        <a href="https://github.com/" class="resume">Get My Resume</a>
+        <a href="#" class="resume">Get My Resume</a>
       </nav>
       
     </div>
@@ -198,15 +200,15 @@
           </div>
           <ul class="technology-list">
             <li class="d-flex flex-center">
-              <img src="images/js.png" alt="technology">
+              <img src="images/js.png" alt="javascript-technology">
               <span>JavaScript</span>
             </li>
             <li  class="d-flex flex-center">
-              <img src="images/html.png" alt="technology">
+              <img src="images/html.png" alt="html-technology">
               <span> HTML</span>
            </li>
             <li class="d-flex flex-center">
-              <img src="images/css.png" alt="technology">
+              <img src="images/css.png" alt="css-technology">
               <span>CSS</span>
             </li>
           </ul>  
@@ -238,13 +240,23 @@
       <form action="https://formspree.io/f/xpzkonvw" method="POST">
         <ul class="inputs">
           <li>
-            <input type="text" placeholder="Stephanie" maxlength="30" name="full-name" required>
+
+          <label for="full-name">full-name</label>
           </li>
           <li>
-            <input type="email" placeholder="example@gmail.com" name="email" required>
+            <input type="text" placeholder="Stephanie"  id="full-name" maxlength="30" name="full-name" required>
           </li>
           <li>
-            <textarea rows="7" cols="22" maxlength="500" name="text" placeholder="Write your message here" required></textarea>
+          <label for="email">email</label>
+          </li>
+          <li>
+            <input type="email" placeholder="example@gmail.com" id="email" name="email" required>
+          </li>
+          <li>
+          <label for="message">message</label>
+        </li>
+          <li>
+            <textarea rows="7" cols="22" maxlength="500" name="text" id="message" placeholder="Write your message here" required></textarea>
           </li>
           <li>
             <button type="submit">Get In Touch</button>
