@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio: mobile version</title>
+  <title>Ugboaja Uchechi's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D3J650GZE"></script>
@@ -240,13 +240,23 @@
       <form action="https://formspree.io/f/xpzkonvw" method="POST">
         <ul class="inputs">
           <li>
-            <input type="text" placeholder="Stephanie" maxlength="30" name="full-name" required>
+            <label for="name">Name:</label>
+          </li>
+
+          <li>
+            <input id="name" type="text" placeholder="Stephanie" maxlength="30" name="full-name" required>
           </li>
           <li>
-            <input type="email" placeholder="example@gmail.com" name="email" required>
+            <label for="mail">Email:</label>
           </li>
           <li>
-            <textarea rows="7" cols="22" maxlength="500" name="text" placeholder="Write your message here" required></textarea>
+            <input id="mail" type="email" placeholder="example@gmail.com" name="email" required>
+          </li>
+          <li>
+            <label for="msg">Message:</label> 
+          </li>
+          <li>
+            <textarea id="msg" rows="7" cols="22" maxlength="500" name="text" placeholder="Write your message here" required></textarea>
           </li>
           <li>
             <button type="submit">Get In Touch</button>
