@@ -18,20 +18,32 @@ body {
 
 /*  DOM manipulations */
 .mobile-header-nav-links {
-  display: none; 
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   margin-top: 0;
   height: 100%;
-  z-index: 10; 
+  z-index: 10;
   flex-direction: column;
   padding-top: 5rem;
   line-height: 5rem;
-  background: #6070FF;
+  background: #6070ff;
   transition: top 1s ease;
   opacity: 95%;
+}
+
+a {
+  align-items: center;
+}
+
+a:active {
+  color: #7f8cff;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 /*  DOM manipulations */
@@ -46,7 +58,7 @@ body {
 .x-icon {
   margin-left: 18rem;
   width: 20px;
-  height: 20px
+  height: 20px;
 }
 
 .space-between {
@@ -124,18 +136,6 @@ ul {
   color: #4e5cd4;
 }
 
-a {
-  align-items: center;
-}
-
-a:active {
-  color: #7f8cff;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
 h2 > a:link {
   text-decoration: none;
 }
@@ -156,7 +156,7 @@ h2 > a:hover {
 
 .icon:hover {
   cursor: pointer;
-} 
+}
 
 /* --- Section For Mobile */
 .headline {
@@ -530,14 +530,14 @@ label {
     padding-bottom: 15%;
   }
 
-   /* DOM Manipulation */
-   .mobile-header-nav-links {
+  /* DOM Manipulation */
+  .mobile-header-nav-links {
     display: none !important;
   }
 
   .mobile-header-nav-links li a {
     display: none;
-  } 
+  }
 
   .x-icon {
     display: none;
