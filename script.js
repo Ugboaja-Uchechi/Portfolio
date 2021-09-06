@@ -14,8 +14,8 @@ function close() {
   container.style.display = 'none';
 }
 
-// icon.addEventListener('click', openBar)
-// closeIcon.addEventListener('click', close)
-// portfolio.addEventListener('click', close)
-// about.addEventListener('click', close)
-// contact.addEventListener('click', close)
+ icon.addEventListener('click', openBar)
+ closeIcon.addEventListener('click', close)
+ portfolio.addEventListener('click', close)
+ about.addEventListener('click', close)
+ contact.addEventListener('click', close)
