@@ -16,6 +16,39 @@ body {
   display: none;
 }
 
+/*  DOM manipulations */
+.mobile-header-nav-links {
+  display: none; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 0;
+  height: 100%;
+  z-index: 10; 
+  flex-direction: column;
+  padding-top: 5rem;
+  line-height: 5rem;
+  background: #6070FF;
+  transition: top 1s ease;
+  opacity: 95%;
+}
+
+/*  DOM manipulations */
+
+.mobile-header-nav-links li a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.x-icon {
+  margin-left: 18rem;
+  width: 20px;
+  height: 20px
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -123,7 +156,7 @@ h2 > a:hover {
 
 .icon:hover {
   cursor: pointer;
-}
+} 
 
 /* --- Section For Mobile */
 .headline {
@@ -411,9 +444,10 @@ input {
   border: 1px solid #cfd8dc;
   padding-left: 1.5rem;
   padding-right: 4.6rem;
-  padding-top: 0.7rem;
-  font-size: 24px;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  display: flex;
+  flex: 1;
+  padding-bottom: 1rem;
   border-radius: 7px;
 }
 
@@ -428,7 +462,7 @@ textarea {
   padding-top: 0.7rem;
   padding-bottom: 0.5rem;
   border-radius: 7px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 button {
@@ -494,6 +528,19 @@ label {
     padding-right: 25%;
     padding-left: 10%;
     padding-bottom: 15%;
+  }
+
+   /* DOM Manipulation */
+   .mobile-header-nav-links {
+    display: none !important;
+  }
+
+  .mobile-header-nav-links li a {
+    display: none;
+  } 
+
+  .x-icon {
+    display: none;
   }
 
   h1 {
