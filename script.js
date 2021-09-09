@@ -112,3 +112,17 @@ function closeModal() {
 if (cancelModal !== null) {
   cancelModal.addEventListener('click', closeModal);
 }
+
+//  FORM VALIDATION
+const formContainer = document.querySelector('.form-tag');
+const mailInput = document.getElementById('email');
+const messageError = document.querySelector('.error-text');
+
+formContainer.addEventListener('submit', (e) => {
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+  } else {
+    e.preventDefault();
+    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+  }
+});
