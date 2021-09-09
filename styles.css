@@ -634,6 +634,12 @@ label {
   padding-left: 1rem;
 }
 
+.error-text {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 /* --- Laptop and Desktop Version --- */
 
 @media screen and (min-width: 992px) {
