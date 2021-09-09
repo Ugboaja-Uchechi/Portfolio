@@ -3,10 +3,9 @@ const closeIcon = document.querySelector('.x-icon');
 const container = document.querySelector('.mobile-header-nav-links');
 
 //  Modal popup
-const popUp = document.querySelector('.popup-container');
+const pop = document.querySelector('.popup');
 const buttonModal = document.querySelectorAll('.button');
 const cancelModal = document.querySelector('.cancel');
-// const desktopPopup = document.querySelector('popup-window');
 
 //  Modal popup
 const snapShoot = [
@@ -66,7 +65,7 @@ const openModal = ({
   description, featuredImage, technologies, linkToLiveVersion, linkToSource,
 }) => () => {
   let displayModal = '';
-  popUp.classList.add('show-popup');
+  pop.classList.add('show-popup');
   cancelModal.style.visibility = 'visible';
   displayModal += `  
 
@@ -92,6 +91,9 @@ const openModal = ({
  
   `;
   displayModal();
+  // buttonModal.forEach((button, index) => {
+  //   button.addEventListener('click', openModal(snapShoot[index]));
+  // });
 };
 
 // Mobile menu
@@ -104,7 +106,7 @@ buttonModal.forEach((button, index) => {
 });
 
 function closeModal() {
-  popUp.style.visibility = 'hidden';
+  pop.classList.remove('show-popup');
   cancelModal.style.visibility = 'hidden';
 }
 if (cancelModal !== null) {

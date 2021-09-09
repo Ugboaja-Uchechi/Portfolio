@@ -191,11 +191,19 @@ h2 > a:hover {
   bottom: 0;
   left: 0;
   right: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
   height: 100%;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
   z-index: 3;
-  background-color: #fff;
+  opacity: 98%;
+  background-color: #c1c7d0;
   margin-bottom: 2rem;
-  border-radius: 2px;
+}
+
+.hide {
+  display: none;
 }
 
 .show-popup {
@@ -204,16 +212,19 @@ h2 > a:hover {
 }
 
 .popup-container {
-  height: 100vh;
+  height: 83vh;
   padding-left: 1rem;
+  padding-bottom: 4rem;
   padding-right: 1rem;
   background-color: #fff;
+  border-radius: 20px;
 }
 
 .popup-container h3 {
   color: #172b4d;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 .popup-container div {
@@ -233,6 +244,7 @@ h2 > a:hover {
   width: 20px;
   height: 20px;
   z-index: 10;
+  padding-right: 1.5rem;
 }
 
 p {
@@ -245,6 +257,7 @@ p {
 .popup-container p {
   line-height: 33px;
   color: #344563;
+  padding: 4px;
   margin: 0;
 }
 
@@ -258,7 +271,6 @@ p {
   padding-bottom: 0.7rem;
   padding-top: 0.7rem;
   margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
 }
 
 .popup-container .line {
@@ -278,7 +290,6 @@ span > img {
   border-radius: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 0.7rem;
-  margin-left: 1rem;
   padding-top: 0.7rem;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
@@ -652,6 +663,49 @@ label {
     display: none;
   }
 
+  .popup {
+    padding-left: 12.5rem;
+    padding-right: 10rem;
+  }
+
+  .popup-container {
+    height: 94.5vh;
+    padding-bottom: 0;
+  }
+
+  .modal-image {
+    margin-left: 3.5rem;
+    margin-bottom: 0;
+    height: 50%;
+    width: 80%;
+  }
+
+  .type > li {
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .technology-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 8rem;
+    flex: none;
+    margin-right: 1rem;
+  }
+
+  .inputs li {
+    text-align: center;
+  }
+
+  .popup-container ul li {
+    margin-top: 0;
+  }
+
+  .popup-container .line {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
   .x-icon {
     display: none;
   }
@@ -769,11 +823,6 @@ label {
     order: 0;
   }
 
-  .type > li {
-    margin-right: 1rem;
-    margin-top: 1rem;
-  }
-
   .flex-cards1 .project-card-image,
   .flex-cards2 .project-card-image,
   .flex-cards4 .project-card-image {
@@ -817,14 +866,6 @@ label {
     margin-bottom: 30%;
   }
 
-  .technology-list li {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 8rem;
-    flex: none;
-    margin-right: 1rem;
-  }
-
   /* --- Contact Styling --- */
 
   .contact {
@@ -843,10 +884,6 @@ label {
     text-align: center;
     margin-left: 12rem;
     margin-right: 12rem;
-  }
-
-  .inputs li {
-    text-align: center;
   }
 
   input {
