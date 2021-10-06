@@ -56,7 +56,7 @@ a:hover {
 
 .mobile-header-nav-links li a {
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   text-decoration: none;
   margin-left: 2rem;
 }
@@ -100,14 +100,14 @@ span {
 
 .grid-container span {
   color: #344563;
-  font-size: 15px;
+  font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .popup-container span {
   color: #344563;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 45px;
 }
 
@@ -139,7 +139,7 @@ ul {
 }
 
 .logo-heading {
-  font-size: 19px;
+  font-size: 1.2rem;
   color: #2e43ff;
   padding: 11px;
 }
@@ -222,7 +222,7 @@ h2 > a:hover {
 
 .popup-container h3 {
   color: #172b4d;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -251,7 +251,7 @@ p {
   color: #344563;
   padding: 8px;
   margin-bottom: 15px;
-  font-size: 17px;
+  font-size: 1.1rem;
 }
 
 .popup-container p {
@@ -305,7 +305,7 @@ span > img {
 
 .headline > .intro {
   color: #172b4d;
-  font-size: 42px;
+  font-size:  2.5rem;
   line-height: 48px;
 }
 
@@ -326,7 +326,7 @@ span > img {
 }
 
 .anchor {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #2e43ff;
   text-decoration: none;
 }
@@ -481,7 +481,7 @@ h1 {
 }
 
 .grid-container h3 {
-  font-size: 34px;
+  font-size: 2rem;
   color: #172b4d;
   padding: 11px;
 }
@@ -538,7 +538,7 @@ h1 {
 
 .contact h2 {
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
@@ -586,7 +586,7 @@ textarea {
   padding-top: 0.7rem;
   padding-bottom: 0.5rem;
   border-radius: 7px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 button {
@@ -630,13 +630,13 @@ footer {
 
 label {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.3rem;
   padding-left: 1rem;
 }
 
 .error-text {
   color: #fff;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
