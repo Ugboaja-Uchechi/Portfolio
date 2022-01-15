@@ -6,7 +6,9 @@ This is my Microverse project called "Portfolio" (Mobile and Desktop version) bu
 
 # live Demo link
 
-https://ugboaja-uchechi.github.io/Portfolio/
+[Github](https://ugboaja-uchechi.github.io/Portfolio/)
+
+[Netlify](https://lucid-beaver-6307b1.netlify.app/)
 
 This is my Microverse project called "Portfolio" (Desktop version) built using HTML and CSS only.
 
