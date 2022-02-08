@@ -32,11 +32,12 @@ Linters such as :
 2. WebHint
 3. Lighthouse
 
-# Author(s)
+# Author
 
 👤Ugboaja-Uchechi
 
 [GitHub](https://github.com/Ugboaja-Uchechi)
+[LinkedIn](https://www.linkedin.com/in/stephanie-ugboaja-930a2a216/)
 
 ## 🤝Contributing
 
