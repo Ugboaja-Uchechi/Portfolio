@@ -36,7 +36,7 @@ Linters such as :
 
 👤Ugboaja-Uchechi
 
-GitHub: https://github.com/Ugboaja-Uchechi
+[GitHub](https://github.com/Ugboaja-Uchechi)
 
 ## 🤝Contributing
 
