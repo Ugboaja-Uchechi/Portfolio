@@ -20,12 +20,10 @@ body {
 /*  DOM manipulations */
 .mobile-header-nav-links {
   display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+  position: fixed;
+  inset: 0% 0% 20% 0%;
   margin-top: 0;
-  height: 100%;
+  height: 100vh;
   z-index: 10;
   flex-direction: column;
   padding-top: 5rem;
@@ -116,7 +114,7 @@ span {
 }
 
 .my-5 {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .border-bottom {
@@ -331,6 +329,23 @@ span > img {
   text-decoration: none;
 }
 
+/* Button Flex */
+
+.button-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button-left-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.code-button {
+  margin-left: 0;
+}
+
 /* --- Nav Links For Mobile */
 
 .resume {
@@ -447,7 +462,7 @@ h1 {
 
 .button {
   margin-top: 16px;
-  margin-bottom: 32px;
+  margin-bottom: 19px;
   border: 2px solid #7f8cff;
   border-radius: 8px;
   color: #2e43ff;
@@ -643,6 +658,16 @@ label {
 /* --- Laptop and Desktop Version --- */
 
 @media screen and (min-width: 992px) {
+/* Button Styling */
+
+  .code-button {
+    margin-left: 2rem;
+  }
+
+  #mobile {
+    display: none;
+  }
+
   .logo-heading {
     margin-left: 5%;
   }
@@ -861,7 +886,7 @@ label {
 
   .link-section {
     flex: 3;
-    margin-top: 6%;
+    margin-top: 0;
   }
 
   .technology-list {
@@ -895,7 +920,7 @@ label {
   input {
     padding-left: 3rem;
     padding-right: 6rem;
-    border-radius: 2px;
+    border-radius: 5px;
   }
 
   .contact-bg {
@@ -911,7 +936,7 @@ label {
     flex: 1;
   }
 
-  .button:hover {
+  /* .button:hover {
     animation-name: box-shadow;
     animation-duration: 650ms;
     animation-delay: 4ms;
@@ -936,7 +961,7 @@ label {
       box-shadow: 2px 5px gray;
       transform: scale(1.4);
     }
-  }
+  } */
 
   footer {
     display: none;
@@ -944,15 +969,14 @@ label {
 
   button:hover {
     animation-name: color;
-    animation-duration: 600ms;
+    /* animation-duration: 600ms;
     animation-delay: 4ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
   }
 
   @keyframes color {
     100% {
       background-color: #7f8cff;
-      transform: scale(1.1);
     }
   }
 }
