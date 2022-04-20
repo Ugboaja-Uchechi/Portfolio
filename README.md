@@ -8,7 +8,7 @@ This is my Microverse project called "Portfolio" (Mobile and Desktop version) bu
 
 [Github](https://ugboaja-uchechi.github.io/Portfolio/)
 
-[Netlify](https://lucid-beaver-6307b1.netlify.app/)
+[Netlify](https://stephanies-portfolio.netlify.app/)
 
 This is my Microverse project called "Portfolio" (Desktop version) built using HTML and CSS only.
 
@@ -51,8 +51,6 @@ Feel free to check the issues page. Show your support
 ## Acknowledgement:
 
 The idea was gotten from the ![](https://img.shields.io/badge/Microverse-blueviolet) Microverse Figma template.
-
-My partner also participated in this project.
 
 ## 📝 License
 
