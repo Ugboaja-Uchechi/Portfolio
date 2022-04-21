@@ -936,42 +936,12 @@ label {
     flex: 1;
   }
 
-  /* .button:hover {
-    animation-name: box-shadow;
-    animation-duration: 650ms;
-    animation-delay: 4ms;
-    animation-timing-function: ease-in-out;
-  }
-
-  @keyframes box-shadow {
-    100% {
-      box-shadow: 1px 3px gray;
-      transform: scale(1.2);
-    }
-  }
-
-  .resume:hover {
-    animation-name: shadow;
-    animation-duration: 650ms;
-    animation-timing-function: ease-in-out;
-  }
-
-  @keyframes shadow {
-    100% {
-      box-shadow: 2px 5px gray;
-      transform: scale(1.4);
-    }
-  } */
-
   footer {
     display: none;
   }
 
   button:hover {
     animation-name: color;
-    /* animation-duration: 600ms;
-    animation-delay: 4ms;
-    animation-timing-function: ease-in-out; */
   }
 
   @keyframes color {
